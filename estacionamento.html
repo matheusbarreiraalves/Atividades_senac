@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento do Estacionamento</title>
+  </head>
+  <body>
+    <script>
+      var veiculo = prompt("Digite o veiculo");
+      var tempo = prompt("Quanto tempo o veiculo ficou estacionado");
+      if (veiculo == "carro") {
+        alert("Você deve pagar: R$" + tempo * 2);
+      } else if (veiculo == "onibus") {
+        alert(tempo * 3);
+      } else {
+        alert(tempo * 4);
+      }
+    </script>
+  </body>
+</html>
